@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/hotel">
+    <Resource name="yyh/mysql"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:3306/hotel?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;rewriteBatchedStatements=true"
+              username="root"
+              password="456478"
+              maxActive="15"
+              maxIdle="6"
+    />
+</Context>
